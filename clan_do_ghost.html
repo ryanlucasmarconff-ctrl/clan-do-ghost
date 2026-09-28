@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clan do Ghost | Minecraft Bedrock</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#070b12;color:#fff;min-height:100vh}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #172235;background:#080d16;position:sticky;top:0;z-index:5}
+.logo{font-size:25px;font-weight:900;letter-spacing:1px}.logo span{color:#67e8f9}
+nav a{color:#b9c7d9;text-decoration:none;margin-left:20px;font-weight:700}
+nav a:hover{color:#67e8f9}
+.hero{padding:90px 7%;text-align:center;background:radial-gradient(circle at 50% 25%,#12324a 0,#0b1421 35%,#070b12 72%)}
+.badge{display:inline-block;border:1px solid #1d6f86;color:#67e8f9;padding:8px 14px;border-radius:999px;margin-bottom:18px}
+h1{font-size:clamp(42px,8vw,78px);margin-bottom:15px}
+.hero p{max-width:650px;margin:auto;color:#aab8ca;font-size:18px;line-height:1.6}
+.buttons{margin-top:28px}.btn{display:inline-block;padding:14px 22px;border-radius:10px;text-decoration:none;font-weight:800;margin:5px;background:#67e8f9;color:#061018}.btn.alt{background:#111d2c;color:#dce9f7;border:1px solid #263b52}
+section{padding:65px 7%;max-width:1200px;margin:auto}
+.title{text-align:center;margin-bottom:30px}.title h2{font-size:32px}.title p{color:#8fa0b5;margin-top:8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#0d1521;border:1px solid #1b2a3d;border-radius:16px;padding:24px}
+.card h3{margin-bottom:9px}.card p{color:#9eacc0;line-height:1.5}
+.member{display:flex;align-items:center;gap:14px}.avatar{width:50px;height:50px;border-radius:50%;display:grid;place-items:center;background:#122b3a;border:1px solid #2b8298;font-weight:900;color:#67e8f9}
+.rank{display:flex;justify-content:space-between;padding:15px 0;border-bottom:1px solid #1a2839;color:#cbd7e5}
+.rank b{color:#67e8f9}
+footer{text-align:center;padding:35px;color:#6f8095;border-top:1px solid #142033}
+.status{color:#67f59b;font-weight:800}
+@media(max-width:650px){nav{display:none}.hero{padding-top:65px}section{padding:50px 5%}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">👻 CLAN <span>DO GHOST</span></div>
+  <nav><a href="#inicio">Início</a><a href="#membros">Membros</a><a href="#ranking">Ranking</a><a href="#entrar">Entrar</a></nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="badge">MINECRAFT BEDROCK</div>
+  <h1>CLAN DO GHOST</h1>
+  <p>Uma comunidade de Minecraft Bedrock feita para jogadores que querem evoluir, competir e jogar juntos.</p>
+  <div class="buttons"><a class="btn" href="#entrar">QUERO ENTRAR</a><a class="btn alt" href="#ranking">VER RANKING</a></div>
+</section>
+
+<section>
+  <div class="title"><h2>O que temos</h2><p>Um painel simples para acompanhar o clan.</p></div>
+  <div class="cards">
+    <div class="card"><h3>👥 Membros</h3><p>Organize jogadores, cargos e informações do clan.</p></div>
+    <div class="card"><h3>🏆 Ranking</h3><p>Acompanhe a pontuação e os destaques da comunidade.</p></div>
+    <div class="card"><h3>📢 Notícias</h3><p>Publique novidades, eventos e avisos do Clan do Ghost.</p></div>
+    <div class="card"><h3>⚡ Automático</h3><p>Estrutura preparada para receber dados automáticos futuramente.</p></div>
+  </div>
+</section>
+
+<section id="membros">
+  <div class="title"><h2>Membros em destaque</h2><p>Exemplo inicial — você pode substituir pelos jogadores reais.</p></div>
+  <div class="cards">
+    <div class="card member"><div class="avatar">G</div><div><h3>Ghost</h3><p>Líder</p></div></div>
+    <div class="card member"><div class="avatar">A</div><div><h3>Admin</h3><p>Administrador</p></div></div>
+    <div class="card member"><div class="avatar">M</div><div><h3>Member</h3><p>Membro</p></div></div>
+  </div>
+</section>
+
+<section id="ranking">
+  <div class="title"><h2>Ranking</h2><p>Ranking demonstrativo.</p></div>
+  <div class="card">
+    <div class="rank"><span>🥇 Ghost</span><b>1000 XP</b></div>
+    <div class="rank"><span>🥈 Admin</span><b>850 XP</b></div>
+    <div class="rank"><span>🥉 Member</span><b>700 XP</b></div>
+  </div>
+</section>
+
+<section id="entrar">
+  <div class="title"><h2>Entrar no Clan</h2><p>Quer fazer parte do Clan do Ghost?</p></div>
+  <div class="card" style="text-align:center">
+    <p>Envie seu nome do Minecraft Bedrock e aguarde a avaliação da equipe.</p>
+    <div class="buttons"><a class="btn" href="mailto:clandoghost@example.com?subject=Quero%20entrar%20no%20Clan%20do%20Ghost">SOLICITAR ENTRADA</a></div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Clan do Ghost • Minecraft Bedrock</footer>
+</body>
+</html>
